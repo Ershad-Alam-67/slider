@@ -36,7 +36,12 @@ const Slide1 = () => {
       </div>
       <div className=" flex   p-5 px-2">
         <div className=" w-[40%] lg:absolute top-[30rem] left-[28rem]  ">
-          <button className=" border text-amber-900 absolute top-[38rem] lg:top-2  font-bold border-amber-900 p-1 px-8 bg-amber-50">
+          <button
+            onClick={() => {
+              alert("thank u for shopping!")
+            }}
+            className=" border text-amber-900 absolute top-[38rem] lg:top-2  font-bold border-amber-900 p-1 px-8 bg-amber-50"
+          >
             SHOP FURNITURE
           </button>
         </div>
@@ -53,11 +58,17 @@ const Slide1 = () => {
           ></img>
 
           <img
-            className=" w-8 h-8 absolute top-[38rem]  left-[18rem] lg:left-[27rem] opacity-40 lg:top-2  mr-2 ml-2"
+            onClick={() => {
+              alert("previous!")
+            }}
+            className=" w-8 h-8 absolute top-[38rem] hover:cursor-pointer  left-[18rem] lg:left-[27rem] opacity-40 lg:top-2  mr-2 ml-2"
             src={LeftArrow}
           ></img>
           <img
-            className=" w-8 h-8 lg:absolute absolute top-[38rem] left-[21rem] lg:top-2 opacity-70 lg:left-[30rem]"
+            onClick={() => {
+              alert("next!")
+            }}
+            className=" w-8 h-8 lg:absolute absolute hover:cursor-pointer top-[38rem] left-[21rem] lg:top-2 opacity-70 lg:left-[30rem]"
             src={RightArrow}
           ></img>
         </div>
