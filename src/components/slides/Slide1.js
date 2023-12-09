@@ -35,7 +35,7 @@ const Slide1 = () => {
         </p>
       </div>
       <div className=" flex   p-5 px-2">
-        <div className=" w-[40%] lg:absolute left-[35%] top-[87%] ">
+        <div className=" w-[40%] lg:absolute top-[30rem] left-[28rem]  ">
           <button className=" border text-amber-900 absolute top-[38rem] lg:top-2  font-bold border-amber-900 p-1 px-8 bg-amber-50">
             SHOP FURNITURE
           </button>
